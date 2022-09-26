@@ -51,7 +51,7 @@ This project is created as an assignment for the [CS 5610 Web Development](https
 
 ## Video demonstration
 
-A [video demonstration]() is available.
+A [video demonstration](https://eqiowtj.github.io/homepage/video/demo.mp4) is available.
 
 ## Author
 
