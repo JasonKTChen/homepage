@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Fake Name's Homepage" />
+    <meta name="author" content="Fake Name" />
+    <title>Fake Name's Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/experience.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="col-lg-10 mx-auto p-4 py-md-5">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <img src="img/logo.png" alt="logo" class="logo" />
+          <span class="fs-4">Fake Name's Work Experience</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="experience.html" class="nav-link active">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="doodles.html" class="nav-link">Doodles</a>
+          </li>
+        </ul>
+      </header>
+
+      <main>
+        <div class="col-md-12">
+          <div class="experience-title">
+            <h4>Fakecorp</h4>
+            <i>2077-2078</i>
+          </div>
+
+          <ul class="icon-list ps-0">
+            <li class="d-flex align-items-start mb-1">
+              Proposed, designed, and implemented a major refactor for the SLA
+              Monitor that is already hard to maintain. Conducted experiments to
+              discover potential overlooked edge cases that may cause unexpected
+              behaviors. Communicated with internal clients to regather
+              requirements and utilized findings to completely overhaul the
+              internal logic. Created data models and cleaned up JDBC queries in
+              favor of Hibernate and Spring Data JPA. Disentangled undocumented
+              business logic and ambiguities. Reduced the amount of code. The
+              execution time for a background process was reduced from 3 minutes
+              to 0.25 seconds. The amount of time for developing a new SLA
+              monitoring type was reduced from over 4 weeks to less than 2
+              weeks. Further architectural changes are made possible.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Designed and implemented an architecture evolution for the SLA
+              Monitor. Decomposed and restructured the application running on
+              EC2 into 3 components running on ECS and AWS Lambda to set the
+              foundation for upcoming requirements of high availability and
+              multi availability zone deployment.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Self-learned TypeScript and Angular. Designed and built an Angular
+              front-end for the Messaging Management Platform from scratch to
+              replace the old UI. Improved usability and received positive
+              feedback from internal users.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Designed and built a Python Lambda function that consumes a
+              Kinesis Data Stream and saves records into a Postgres database.
+              The Lambda replaces a piece of a monolithic Java application.
+              Increased the throughput from 80 records / min to 90,000 records /
+              min.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Participated in the design and implementation of operationalizing
+              the onboarding process for the SLA Monitor. Designed and
+              implemented Lambda APIs to allow internal clients to self-service
+              onboarding. Developers on our team saved 8 hours per week on
+              average supporting clients' onboarding requests.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Designed and implemented a performance test suite for the SLA
+              Monitor and Messaging Management Platform. Conducted performance
+              tests and identified bottlenecks to achieve optimal performance.
+              Increased the throughput by 8 times and 14 times respectively.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Discovered and fixed a bug in Apache Camel's Rest DSL.
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <div class="experience-title">
+            <h4>Others</h4>
+          </div>
+          <ul class="icon-list ps-0">
+            <li class="d-flex align-items-start mb-1">
+              Worked with a hackathon team to build a web app for querying and
+              visualizing connections between financial entities such as
+              financial firms, individuals, and matters. Gathered data and
+              designed data layer utilizing Neo4j.
+            </li>
+            <li class="d-flex align-items-start mb-1">
+              Built a Python application to automatically breed cats in the
+              FakeKitties game by directly interacting with smart contracts on
+              the Fakethereum blockchain through Web3 API via a local Parity
+              node.
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="pt-5 my-5 text-muted border-top">
+        Created by Fake Name
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
