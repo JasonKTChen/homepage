@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./public",
-    "format": "npx prettier --write public"
+    "start": "http-server docs",
+    "format": "npx prettier --write docs"
   },
   "keywords": [],
   "author": "",
